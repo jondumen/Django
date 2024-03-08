@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>Miku</title>
+</head>
+<body>
+    <h1>Miku Miku</h1>
+    <p class="p">You Can Call Me Miku</p>
+    <p class="p">Blue Hair, Blue Tie</p>
+    <p class="p">Hiding in your Wi-Fi</p>
+    <p class="p">Open Secrets, Anyone Can Find Me</p>
+    <p class="p">Hear Your Music, Running Through My Mind</p>
+    <p class="p">I'm Thinking Miku Miku OO-EE-OO</p>
+    <p class="p">I'm Thinking Miku Miku OO-EE-OO</p>
+    <p class="p">I'm Thinking Miku Miku OO-EE-OO</p>
+
+    <p>Lo TQM Rubio 💟</p>
+    {{ username }}
+    <br/>
+    <img src="https://preview.redd.it/rabbit-hole-miku-v0-sbm4fzo62dmc1.png?width=640&crop=smart&auto=webp&s=4e7583a219f5b545c59990733de531d61a8e2ae5" alt="Rabbit Hole Miku WEB" width="15%" height="30%">
+    <img src="{% static 'rhmh.jpg' %}" alt="Rabbit Hole Miku Static" width="11%" height="16%" />
+    <img src="{% static 'images/rhmpng.png' %}" alt="Rabbit Hole Miku StcImg" width="13%" height="22%" />
+    <img src="{% static 'images/hmrh.gif' %}" alt="Rabbit Hole Miku StcGIF" width="16.8%" height="22%" />
+    <br />
+    
+    <table class="steelBlueCols">
+        <tbody>
+            <tr>
+                <td>{{ ifav1 }}</td>
+                <td>{{ ifav2 }}</td>
+                <td>{{ ifav3 }}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
